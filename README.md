@@ -1,12 +1,60 @@
-# React + Vite
+# 📝 Task Manager - MERN Stack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Task Manager application built using the MERN stack (MongoDB, Express, React, Node.js). It allows users to manage tasks with title, description, and status.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+### ✅ Frontend
+- View all tasks with status
+- Add a new task
+- Toggle task status (pending/ongoing/completed)
+- Edit or delete individual tasks
+- Filter tasks by status
+- Delete all tasks
+- Responsive UI with Toast notifications
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✅ Backend
+- RESTful APIs for all CRUD operations
+- Filter tasks based on status
+- MongoDB integration
+- Proper error handling with meaningful responses
+
+---
+
+## 🔧 Technologies Used
+
+- **Frontend:** React + Vite, Tailwind CSS, Axios, React Toastify
+- **Backend:** Node.js, Express.js, MongoDB, Mongoose
+- **Icons:** Lucide React
+
+---
+
+
+## 📦 Installation
+
+### 🔹 Prerequisites
+- Node.js & npm
+- MongoDB
+
+### 🔹 Clone the repo
+```bash
+git clone https://github.com/yourusername/task-manager.git
+cd task-manager
+
+
+### Backend
+```bash
+
+cd server
+npm install
+# Create .env file with MONGO_URI and PORT
+npm start
+
+###Frontend
+```bash
+
+cd client
+npm install
+npm run dev
